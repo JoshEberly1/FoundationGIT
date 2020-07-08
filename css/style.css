@@ -59,14 +59,15 @@ header{
 
 nav a {
   display: inline-block;
-  margin-left: 20px;
-  margin-right:20px;
-  margin-top:15px;
-  margin-bottom:30px;
+  padding-left: 20px;
+  padding-right:20px;
+  padding-top:15px;
+  padding-bottom:30px;
   position: relative;
   text-decoration: none;
   color:#ffffff;
-  font-size:16px;
+  font-size:18px;
+  font-weight: bold;
 }
 
   &:hover {
@@ -98,7 +99,6 @@ header #branding{
   float:left;
 }
 header #branding h1{
-  font-family: 'Cinzel Decorative', cursive;
   margin:0;
 
 }
@@ -110,6 +110,18 @@ header nav{
 header a:hover{
   color:#cccccc;
   font-weight:bold;
+}
+
+.imgcolu {
+  margin:auto;
+  display:block;
+  padding-top:45px;
+  padding-left:30px;
+
+}
+
+.textleft {
+  padding-left:30px;
 }
 
 #main-col {
@@ -329,15 +341,14 @@ header a:hover{
   margin-right: 0px;
 }
 
-
-
-
-
-
 footer{
   padding:20px;
   margin-top:20px;
   color:#ffffff;
   background-color:#072510;
   text-align: center;
+}
+
+.aboutcol {
+  margin-bottom:30px;
 }
