@@ -9,6 +9,14 @@ body {
 /*Global */
 }
 
+.pull-quote{
+  border: solid;
+  background-color: #e8e8e8;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+}
+
 ul{
   margin:0;
   padding:0;
