@@ -378,9 +378,14 @@ footer{
   border:solid;
   width:300px;
   height:450px;
-  padding:2px;
-  background-color:#f5f5f5;
+  line-height: 1;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  text-align:center;
+  padding-top:10px;
 }
+
 
 .leftside {
   float:right;
@@ -392,6 +397,29 @@ footer{
 }
 
 .titlebox {
-  text-align:center;
-  style:bold;
+  margin-top:25px;
+}
+
+.flipcard {
+  background-color:transparent;
+  /*perspective:1000px;*/
+}
+
+
+.flipcard:hover .biobox {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position:absolute;
+  width:100%;
+  height:100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  padding-left:10px;
+  padding-right:10px;
 }
