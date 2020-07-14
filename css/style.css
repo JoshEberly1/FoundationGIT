@@ -33,6 +33,14 @@ ul{
 
 }
 
+.box{
+    float:left;
+    margin-right:20px;
+}
+.clear{
+    clear:both;
+}
+
 .container2{
   margin:auto;
 
@@ -105,7 +113,9 @@ header li{
 
 header #branding{
   float:left;
+  display:inline-block;
 }
+
 header #branding h1{
   margin:0;
 
@@ -113,6 +123,7 @@ header #branding h1{
 
 header nav{
   float:right;
+  display: inline-block;
 }
 
 header a:hover{
@@ -322,11 +333,11 @@ header a:hover{
   margin-left:62px;
 }
 
-#boxes .box22 {
+#video .box22 {
   padding:18px;
-  float:left;
+  float:center;
   text-align:center;
-  width:45%;
+  width:98%;
   margin-right:21px;
 }
 
