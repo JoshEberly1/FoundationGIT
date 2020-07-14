@@ -108,7 +108,7 @@ header a{
 header li{
   float:left;
   display:inline;
-  padding: 0 20px 0 20px;
+  padding: 0 5px 0 5px;
 }
 
 header #branding{
@@ -370,4 +370,21 @@ footer{
 
 .aboutcol {
   margin-bottom:30px;
+}
+
+
+.biobox {
+  margin-top:20px;
+  border:solid;
+  width:300px;
+  height:450px;
+}
+
+.leftside {
+  float:right;
+  margin-left:160px;
+}
+.rightside {
+  float:left;
+  margin-right:160px;
 }
