@@ -378,6 +378,8 @@ footer{
   border:solid;
   width:300px;
   height:450px;
+  padding:2px;
+  background-color:#f5f5f5;
 }
 
 .leftside {
@@ -387,4 +389,9 @@ footer{
 .rightside {
   float:left;
   margin-right:160px;
+}
+
+.titlebox {
+  text-align:center;
+  style:bold;
 }
