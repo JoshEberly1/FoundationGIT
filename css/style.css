@@ -157,8 +157,7 @@ header a:hover{
 }
 
 #address{
-  margin-left:40%;
-  margin-right:30%;
+  text-align:center;
 }
 
 #header1 {
@@ -453,5 +452,7 @@ footer{
 }
 
 #donorboxcontainer {
-  text-align:center;
+  width:60%;
+  margin-left:auto;
+  margin-right:auto;
 }
