@@ -429,3 +429,18 @@ footer{
 .flip-card-back {
   padding-top: 120px;
 }
+
+.peopleTitle {
+  text-align:center;
+}
+
+.peopleTitle h1 {
+  font-size:36px;
+  color:#072510;
+}
+
+.peopleTitle ul {
+  list-style:none;
+  font-size:22px;
+  line-height:2em;
+}
